@@ -1,0 +1,30 @@
+LAMMPS (16 Mar 2018)
+Reading data file ...
+  orthogonal box = (-4.73312 -4.73312 -4.73312) to (4.73312 4.73312 4.73312)
+  2 by 2 by 4 MPI processor grid
+  reading atoms ...
+  1000 atoms
+Reading potential file /home/fs01/ajm529/lammps-16Mar18/potentials/sw_potentials/AG/eps2.23.sw with DATE: 2008-01-29
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check no
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 3.836
+  ghost atom cutoff = 3.836
+  binsize = 1.918, bins = 5 5 5
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair sw, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : real
+  Current step  : 0
+  Time step     : 1
+Per MPI rank memory allocation (min/avg/max) = 3.517 | 3.584 | 4.576 Mbytes
+Step Temp E_pair E_mol TotEng Press Volume Lx Ly Lz S/CPU 
+       0          300    -10123.39            0   -9230.0416   -53435.191    848.26492    9.4662325    9.4662325    9.4662325            0 
+     100    309.27283   -10156.722            0   -9235.7601    -51917.79    845.76166    9.4569116    9.4569116    9.4569116    64.951584 
+     200    323.59681   -10212.728            0    -9249.112   -51231.737    838.73377    9.4306446    9.4306446    9.4306446    71.947396 
+     300    326.77642   -10242.984            0   -9269.8995   -30352.487    828.40159    9.3917597    9.3917597    9.3917597    43.603746 
+     400    346.55022   -10326.183            0   -9294.2158   -20102.298    816.73716    9.3474706    9.3474706    9.3474706    47.683554 
