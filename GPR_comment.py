@@ -51,7 +51,7 @@ print((MSE))
 ypredint=[np.round(j) for j in y_pred]
 
 #-------- Plotting result ----------
-''' We want the predicted values for nucleus size y_pred to be as close as possible to y_actual '''
+''' We want the predicted values for nucleus size y_pred to be as close as possible to y_test '''
 
 plt.plot(y_test,y_pred,'ro')
 plt.plot(y_test,y_test,color='blue',label="Expected")
