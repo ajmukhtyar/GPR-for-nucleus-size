@@ -12,11 +12,8 @@ from mpl_toolkits import mplot3d
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler() 
 
-
-
 lowerlim = 4
-upperlim = 50
-
+upperlim = 40
 
 PE0 = [[] for i in range(lowerlim,upperlim)]
 PE_scaled = [[] for i in range(lowerlim,upperlim)]
