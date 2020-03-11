@@ -5,4 +5,4 @@ Commands:
 1. python sort_comment.py --> Generates data_normalized.txt file which is used as input for the GPR model
 2. python GPR_comment.py
 
-Data from 40 simulations is stored in output and totord files
+Data from 40 simulations is stored in the input_files folder 
