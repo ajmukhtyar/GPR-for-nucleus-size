@@ -31,7 +31,7 @@ num = [[] for i in range(lowerlim,upperlim)]
 
 for i in range(lowerlim,upperlim):
     print(i)
-    with open("output%s" %i) as f:
+    with open("input_files/output%s" %i) as f:
         save = 0 
         for line in f:
             if line.startswith('Step'):
@@ -59,7 +59,7 @@ for i in range(lowerlim,upperlim):
         TE_scaled[i-lowerlim]=scaled_data[:,2]
 
 
-    with open("totord%s.dat" %i) as f2:
+    with open("input_files/totord%s.dat" %i) as f2:
         count=0
         for line1 in f2:
             if count%100==0:
